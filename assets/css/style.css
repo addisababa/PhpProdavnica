@@ -1,0 +1,271 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Exo 2', sans-serif;
+}
+a {
+	color: #A8A8A8;
+}
+a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+.btn {
+	border-radius: 0 !important;
+}
+.registerButton {
+	text-decoration: underline;
+}
+#navbar {
+	background-color: #232F3E;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+}
+#navbar a:hover {
+
+}
+.tel {
+	margin-left: 20px;
+	color: grey;
+}
+.shopCart {
+	font-size: 1.3em;
+	margin: 0;
+}
+.navBot {
+	border-top: 0.5px solid grey;
+}
+.navBot .row {
+	width: 100%;
+}
+.navBot .row .col-md-3 .text-white {
+	font-size: 16px;
+}
+
+.brand {
+	border-right: 0.5px solid grey;
+}
+.cart {
+	border-left: 0.5px solid grey;
+	padding-left: 20px;
+}
+#main {
+	margin-top: 120px;
+	min-height: 700px;
+}
+.sidebar li {
+	background-color: #232F3E !important;
+	color: #FFF;
+}
+.sidebar li:hover {
+	background-color: #cccccc !important;
+	color: #000;
+}
+
+#main .arrivals .card img {
+	width: 100%;
+}
+#main .card img{
+	width: 100% !important;
+}
+.mainProducts .btn-outline-dark {
+	width: 80%;
+	margin-left: 10%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+#footer {
+	background-color: #232F3E;
+}
+#footer a {
+	color: grey;
+}
+#footer a:hover {
+	text-decoration: none;
+}
+#footer ul {
+	list-style-type: none;
+}
+#footer span {
+	font-size: 1.2em;
+}
+#footer .fab {
+	font-size: 1.7em;
+	letter-spacing: 10px;
+}
+#copyright {
+	background-color: #232F3E;
+}
+#contact {
+	margin-top: 130px;
+	margin-bottom: 70px;
+}
+#cart {
+	margin-top: 250px;
+	margin-bottom: 70px;
+	min-height: 400px;
+}
+#shop {
+	margin-top: 100px;
+	margin-bottom: 70px;
+	min-height: 700px;
+}
+
+#shop .card img {
+	width: 100%;
+}
+#shop .btn-outline-dark {
+	width: 80%;
+}
+.card_title {
+	color: #000;
+}
+.card_title:hover {
+	color: #000;
+	text-decoration: underline;
+}
+/* image zoom on hover */
+.item {
+	position: relative;
+	overflow: hidden !important;
+	cursor: pointer;
+}
+.item img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 1s;
+}
+.item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.3);	
+}
+/* image zoom on hover */
+.list-group-item {
+	border-radius: 0 !important;
+	background-color: #232F3E !important;
+	color: #FFF;
+}
+.list-group-item:hover {
+	background-color: #cccccc !important;
+	color: #000;
+}
+.newsletter {
+	background-color: #232F3E;
+	letter-spacing: 2px;
+}
+.newsletter img {
+	width: 20%;
+}
+.newsletter input {
+	border-radius: 0 !important;
+	width: 100% !important;
+}
+.newsletter button {
+	border-radius: 0 !important;
+}
+#register {
+	margin-top: 150px;
+	margin-bottom: 70px;
+	min-height: 700px;
+}
+#custombutton {
+	width: 100%;
+}
+#product {
+	margin-top: 150px;
+	margin-bottom: 70px;
+}
+#product .colors {
+	width: 20%;
+}
+.buyButton {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+@media screen and (max-width: 768px) {
+	.navbar-brand {
+		padding-left: 5px !important;
+	}
+	.navBot {
+		padding: 0;
+		margin: 0;
+	}
+	.navBot .row .col-md-6 {
+		border-right: none !important;
+	}
+	.navBot .row {
+		margin: 0 !important;
+	}
+	.navMobile{
+		text-align: left !important;
+		border-right: none !important;
+		margin: 10px;
+
+	}
+	.shopCart {
+		padding-right: 0 !important;
+		font-size: 1.4em !important;
+	}
+	.featured {
+		margin-top: 10px !important;
+		margin-bottom: 10px !important;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.login {
+		padding: 0 !important;
+	}
+	.login .form-group {
+		margin-bottom: 0 !important;
+	}
+	.login input {
+		height: 20px !important;
+		width: 85px;
+		display: inline-block;
+	}
+	.login button {
+		font-size: 16px;
+		margin-top: 0 !important;
+		padding-top: 0;
+		padding-right: 2px;
+		padding-bottom: 0;
+		padding-left: 2px;
+	}
+	.registerButton {
+		font-size: 15px !important;
+		letter-spacing: 0 !important;
+	}
+	.mainProducts .row {
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+	}
+	.arrivals .btn-outline-dark {
+		font-size: 1em !important;
+		width: 80%;
+		margin-left: 10%;
+	}
+	.mainProducts .btn-outline-dark {
+		font-size: 1em !important;
+		width: 80%;
+		margin-left: 10%;
+	}
+	.slider1 {
+		margin-top: 0 !important;
+	}
+	.sidebar .dropdown-menu {
+		padding: 0 !important;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.registerButton {
+			font-size: 12px !important;
+			letter-spacing: 0 !important;
+		}
+}
